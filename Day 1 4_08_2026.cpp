@@ -62,22 +62,40 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// int main(){
+//     int return_date{};
+//     std::cin>>return_date;
+//     if (return_date<=5){
+//         std::cout<<"No fine";
+//     }
+//     else if (return_date>5 && return_date<=10){
+//         std::cout<<"Fine is 50";
+//     }
+//     else if (return_date>10 && return_date<=30){
+//         std::cout<<"Fine is 100";
+//     }
+//     else{
+//         std::cout<<"Membership cancelled";
+//     }
+
+//     return 0;
+// }
+
+
+
 #include <iostream>
 int main(){
-    int return_date{};
-    std::cin>>return_date;
-    if (return_date<=5){
-        std::cout<<"No fine";
+    int i;
+    for (i=0; i<10 ;i++){
+        std::cout<<i<<std::endl;
     }
-    else if (return_date>5 && return_date<=10){
-        std::cout<<"Fine is 50";
+    for (;i=0; i++){
+        std::cout<<i<<std::endl;
     }
-    else if (return_date>10 && return_date<=30){
-        std::cout<<"Fine is 100";
+    for (;i<10;){
+        i++;
+        std::cout<<i<<std::endl;
     }
-    else{
-        std::cout<<"Membership cancelled";
-    }
-
     return 0;
 }

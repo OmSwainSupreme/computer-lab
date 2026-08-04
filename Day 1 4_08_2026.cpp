@@ -64,6 +64,20 @@
 
 #include <iostream>
 int main(){
- 
+    int return_date{};
+    std::cin>>return_date;
+    if (return_date<=5){
+        std::cout<<"No fine";
+    }
+    else if (return_date>5 && return_date<=10){
+        std::cout<<"Fine is 50";
+    }
+    else if (return_date>10 && return_date<=30){
+        std::cout<<"Fine is 100";
+    }
+    else{
+        std::cout<<"Membership cancelled";
+    }
+
     return 0;
 }
